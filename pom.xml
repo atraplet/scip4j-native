@@ -126,6 +126,18 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>download libtbb.so</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>wget</goal>
+                        </goals>
+                        <configuration>
+                            <url>${natives.download.url}/v${natives.lib.version}/libtbb.so</url>
+                            <outputDirectory>${project.basedir}/${natives.dir}/linux_64</outputDirectory>
+                            <md5>5275c2fe02bcd0b03782ceee69b9c3cb</md5>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>download scip.dll</id>
                         <phase>generate-resources</phase>
                         <goals>
