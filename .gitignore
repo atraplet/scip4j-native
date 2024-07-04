@@ -125,3 +125,4 @@ fabric.properties
 /src/main/resources/natives/windows_64/scip.dll
 /src/main/resources/natives/windows_64/tbb.dll
 /src/main/resources/natives/linux_64/libscip.so
+/src/main/resources/natives/linux_64/libtbb.so
