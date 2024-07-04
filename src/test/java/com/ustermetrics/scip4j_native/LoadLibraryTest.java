@@ -9,6 +9,7 @@ class LoadLibraryTest {
 
     @Test
     void loadLibrary() throws IOException {
+        NativeLoader.loadLibrary("tbb");
         NativeLoader.loadLibrary("scip");
     }
 
