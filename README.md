@@ -1,5 +1,7 @@
 # SCIP Solver for Java Native Libraries
 
+*Work in progress*
+
 [![Build](https://github.com/atraplet/scip4j-native/actions/workflows/build.yml/badge.svg)](https://github.com/atraplet/scip4j-native/actions/workflows/build.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.ustermetrics/scip4j-native)](https://central.sonatype.com/artifact/com.ustermetrics/scip4j-native)
 [![Apache License, Version 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/atraplet/scip4j-native/blob/master/LICENSE)
